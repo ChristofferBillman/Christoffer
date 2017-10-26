@@ -1,0 +1,63 @@
+body {
+    background-color: lightgrey;
+    <!-- background-image: url("Placeholder"); 
+    margin: 100 auto
+    width: 60%
+}
+
+h1 {
+    color: mediumaquamarine;
+    text-align: center;
+    font-family: Encode Sans
+}
+
+p {
+    font-family: verdana;
+    font-size: 10px;
+    padding-top: 10px;
+    background-color:lightskyblue
+        width: 800px;
+}
+
+h2 {
+    float: center;
+    color: darkslategray;
+    text-align:left;
+    font-family: Encode Sans
+    margin: 40px;  
+}
+.button {
+    background-color: #4CAF50;
+    border:;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 100px;
+    cursor: crosshair;
+    
+}
+
+.topimg {
+    width: 400px;
+   float: left;
+    margin: 40px;
+    padding: 40px;
+    border: 5px solid black;
+}
+.menubuttons {
+    background-color: #4CAF50;
+    width: 800px;
+    height: 21px;
+    border: 5px;
+    border-bottom-color: aqua; 
+}
+.imgtxt{
+    width: 40px;
+    float: left;
+    position: absolute;
+    top: 230px;
+    
+}

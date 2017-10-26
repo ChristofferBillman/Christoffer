@@ -1,0 +1,162 @@
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+h2 {
+    padding-top: 20px; 
+    padding-left: 80px;
+}
+h1 {
+    color: floralwhite;
+    z-index: 0;
+    left: 20px;
+    top: -9px;
+    position: absolute;
+}
+.header {
+    background-color: #7B1FA2;
+    width: 100%;
+    height: 60px;
+    display: block;
+    top: 0px; 
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    box-shadow: 0px 5px 0px #4A148C;
+}
+
+.headerMenu {
+    border: none;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    top: 22px;
+    left: 160px;
+
+}
+.headerMenuRight {
+    border: none;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    top: 22px;
+    left: 60%;
+}
+
+.headerButton {
+    text-decoration: none;
+    background-color:#7B1FA2;
+    position: relative;
+    transition-duration: 0.4s;
+    color: white;
+    margin: 20px;
+}
+
+.headerButtonRight {
+    text-decoration: none;
+    background-color:#7B1FA2;
+    position: relative;
+    transition-duration: 0.4s;
+    color: white;
+    margin: 24px;
+}
+
+.headerButton:hover {
+    color: gray;   
+}
+
+
+.headerButtonRight:hover {
+    color: gray;   
+}
+
+.profilePicture {
+    left: 47px;
+    height: 32px;
+    width: 32px;
+    border-radius: 16px;
+    background-color: whitesmoke;
+    position: relative;
+}
+
+.profile {
+    bottom: 19px;
+    position: relative;
+    left: 80%;  
+}
+
+.profileButton {
+    top: -25px;
+    position: relative;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.interactiveMenu {
+    width: 400px;
+    height: 150px;
+    position: relative;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    position: relative;
+    top: 120px;
+    left: 30px;
+}
+.topText {
+    top: 60px;
+    left: 60px;
+    position: absolute;
+    color: #7B1FA2;
+}
+
+.profilePicture2 {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: #CE93D8;
+    position: relative; 
+    top: 12.5px;
+    left: 12.5px;
+}
+
+.friend1 {
+    width: 400px;
+    height: 75px;
+    position: relative;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    position: relative;
+    top: 120px;
+    left: 30px;
+}
+
+.friend2 {
+    width: 400px;
+    height: 75px;
+    position: relative;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    position: relative;
+    top: 120px;
+    left: 30px;
+    box-shadow: 0px 0px 0px
+}
+.friendNamePlacement {
+    display: inline-block;
+    position: absolute;
+    bottom: 18.75px;
+    left: 12.5px;
+}
